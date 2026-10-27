@@ -12,12 +12,54 @@ Pada Praktik 4, program awal memiliki tiga bug, yaitu kesalahan pada perhitungan
 
 Test Case
 
-ID| Input| Expected| Actual Awal| Status
-T1| Rata-rata "[80, 60, 90, 70]"| 75.0| 60.0| FAIL
-T2| Rata-rata "[100, 80]"| 90.0| 36.0| FAIL
-T3| Status nilai 60| Lulus| Tidak lulus| FAIL
-T4| Status nilai 59| Tidak lulus| Tidak lulus| PASS
-T5| Nilai tertinggi "[80, 60, 90, 70]"| 90| 0| FAIL
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Input</th>
+      <th>Expected</th>
+      <th>Actual Awal</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T1</td>
+      <td>Rata-rata [80, 60, 90, 70]</td>
+      <td>75.0</td>
+      <td>60.0</td>
+      <td>FAIL</td>
+    </tr>
+    <tr>
+      <td>T2</td>
+      <td>Rata-rata [100, 80]</td>
+      <td>90.0</td>
+      <td>36.0</td>
+      <td>FAIL</td>
+    </tr>
+    <tr>
+      <td>T3</td>
+      <td>Status nilai 60</td>
+      <td>Lulus</td>
+      <td>Tidak lulus</td>
+      <td>FAIL</td>
+    </tr>
+    <tr>
+      <td>T4</td>
+      <td>Status nilai 59</td>
+      <td>Tidak lulus</td>
+      <td>Tidak lulus</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>T5</td>
+      <td>Nilai tertinggi [80, 60, 90, 70]</td>
+      <td>90</td>
+      <td>0</td>
+      <td>FAIL</td>
+    </tr>
+  </tbody>
+</table>
 
 Bug Report
 
@@ -44,12 +86,54 @@ Bug 3 — Nilai tertinggi
 
 Retest
 
-ID| Input| Expected| Actual Setelah Perbaikan| Status
-T1| Rata-rata "[80, 60, 90, 70]"| 75.0| 75.0| PASS
-T2| Rata-rata "[100, 80]"| 90.0| 90.0| PASS
-T3| Status nilai 60| Lulus| Lulus| PASS
-T4| Status nilai 59| Tidak lulus| Tidak lulus| PASS
-T5| Nilai tertinggi "[80, 60, 90, 70]"| 90| 90| PASS
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Input</th>
+      <th>Expected</th>
+      <th>Actual Setelah Perbaikan</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T1</td>
+      <td>Rata-rata [80, 60, 90, 70]</td>
+      <td>75.0</td>
+      <td>75.0</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>T2</td>
+      <td>Rata-rata [100, 80]</td>
+      <td>90.0</td>
+      <td>90.0</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>T3</td>
+      <td>Status nilai 60</td>
+      <td>Lulus</td>
+      <td>Lulus</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>T4</td>
+      <td>Status nilai 59</td>
+      <td>Tidak lulus</td>
+      <td>Tidak lulus</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>T5</td>
+      <td>Nilai tertinggi [80, 60, 90, 70]</td>
+      <td>90</td>
+      <td>90</td>
+      <td>PASS</td>
+    </tr>
+  </tbody>
+</table>
 
 Setelah perbaikan dilakukan, seluruh test case dijalankan kembali. Hasil aktual sesuai dengan hasil yang diharapkan dan seluruh pengujian berstatus PASS.
 
